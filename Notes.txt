@@ -171,3 +171,13 @@ Connecting Real WOrld Data to ERC 3643 [Bridge between Web2 and Web3]
         Oracles either return trusted values or revert , removing complexity from end apllications
         permissioless design that works with popular data sources like ChainLink
         
+
+Step-by-step deployment
+Here’s a step-by-step breakdown of deploying an ERC-3643 token, using fictional participants Person A (the issuer) and Person B (the investor):
+
+Person A connects to the ERC-3643-compliant infrastructure, such as Tokeny’s platform or using open-source software development kits (SDKs). This includes deploying the identity registry, compliance contract, and token contract.
+Person A configures the compliance contract to define who can hold or transfer tokens, based on factors like KYC status, geographic restrictions, and investor qualifications.
+Person A integrates authorized identity validators who can issue claims, for instance that Person B is KYC-verified. These claims are linked to blockchain addresses via the identity registry.
+Person B undergoes KYC through a registered validator. Once approved, his wallet address is linked to an on-chain identity that satisfies Person A’s compliance requirements.
+With the infrastructure in place, Person A mints the ERC-3643 tokens and distributes them to verified investors like Person B. Transfers are automatically restricted to eligible, verified participants.
+If Person B’s status changes, such as if he moves to a restricted jurisdiction, Person A can revoke or update access in real time through the identity registry. 
