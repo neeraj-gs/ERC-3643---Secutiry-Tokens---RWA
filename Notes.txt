@@ -121,3 +121,53 @@ ERC-3643 is transforming the financial landscape by:
 This standard represents a significant advancement in blockchain technology, 
 bridging the gap between traditional finance and digital assets while ensuring regulatory compliance and security.
 
+
+Tokenizing Everything
+    Challenges  
+        Follow All the regulations
+        Bringing Bureaucracy on Chain 
+        Smart Contract Upgrades 
+
+ERC Standards 
+    Make Audit Easy 
+    Interoperability and Standardization to build better monitoring and Software tools 
+    Better UX , as they folloe the standard 
+
+
+ERC 7726 
+    For Oracles to get Off chain data , on Chain 
+    Standardize Oracle 
+    Provides consistant data handling and fetching 
+    Permissionless INtegration: Supports Permissionless oracles, Allows Governance Mechanism if necessary
+        This flexibility enables developers to tailor their oracles to specific use cases while adhering to the standard.
+
+
+ERC 3643 [Permissioned ERC 20]
+    ERC 20 Compatible 
+    All Wallets have a Valid Identity
+        When This si deployed , a Smart contract will work as a identity provider.
+        Can integrate also with OnchainID for KYC 
+        Check Compliance for each transfer and gives compiance service 
+
+Steps 
+Sender --> Initaites a Transfer it interacts with the smart contract and check the compliance smart contract [Which fetches the identiy and fetch any rule we set[Ex: Whitelist etc..]] --> Passes the Transaction, if data is correct 
+
+    Ex: Tokenize Real Estate Project 
+        Shares will be tokenized and anyone can buy it  
+
+        User is KYCed --> To Buy a Real Estate A , you should be a Indian Citizen[Rule 1] ---> To Buy more that 5 units you should be institutinal[ Rule 2] == Rule for Buying Real Estates 
+
+            Trasnaction will  nto pass if any of the rule is not met and not hit 
+
+
+Real World: KYC/AML --> Set compliance and regulatory Rules --> Add operation temas with licences 
+Web3: setOnChainId (Function that Accepts a SMart contract address, It should handle all riules related to identity provider[Flexible based on product]) --> --> serComplicanceContract(Rules engine,has multiple mrules and cop;icane sc address is added) ---> addAgent (Compliance smart cotract should have some agent [Add people with flexible roles to be able to do more actions (People who manage the rules)])
+
+
+Connecting Real WOrld Data to ERC 3643 [Bridge between Web2 and Web3]
+    ERC 7726 : Oracle Adapter 
+        Provides an adapter , a standard that works with token amounts instead of token prices
+        Provides a quoteOf function that converts between token amounts while handling decimals internally 
+        Oracles either return trusted values or revert , removing complexity from end apllications
+        permissioless design that works with popular data sources like ChainLink
+        
