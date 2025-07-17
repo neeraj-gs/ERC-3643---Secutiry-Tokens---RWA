@@ -1,0 +1,178 @@
+# **Release Notes - Version 0.3.8**
+
+## **Summary**
+
+### **Key Statistics**
+
+**Commit Categories:**
+- **Private Issuance Features**: ~8 commits
+- **Project Management**: ~12 commits  
+- **Authentication & Security**: ~6 commits
+- **Quest System Enhancements**: ~5 commits
+- **UI/UX Improvements**: ~8 commits
+- **Bug Fixes**: ~15 commits
+- **XP System**: ~3 commits
+- **Integration**: ~4 commits
+
+### **Major Feature Areas:**
+
+1. **Private Issuance System** - First interaction between Issuer and Investor
+2. **Project Management** - Admin project creation on behalf of issuers
+3. **Tally Form Integration** - Streamlined project submission process
+4. **Conditional User Experience** - Accredited vs Retail investor differentiation
+5. **Quest System Enhancements** - Challenge and flipcard editing capabilities
+6. **Authentication Improvements** - Login and auth header fixes
+
+This release represents a significant milestone with the **first private issuance functionality**, **comprehensive project management**, and **enhanced user experience** based on investor type.
+
+## **New Features**
+
+### **Private Issuance System**
+
+**1. Issuer-Investor Interaction**
+- **First private issuance workflow** enabling direct issuer-investor engagement
+- **Private project viewing** for selected investors only
+- **Investor-specific project access** with controlled visibility
+- **Private investment opportunities** separate from public offerings
+
+**2. Investor Classification System**
+- **Accredited vs Retail investor differentiation** with tailored experiences
+- **Conditional rendering** based on investor type and qualifications
+- **Role-based access control** for different investor categories
+- **Personalized investment opportunities** based on investor status
+
+### **Project Management Enhancement**
+
+**1. Admin Project Creation**
+- **Create projects on behalf of issuers** with administrative oversight
+- **Issuer project management** without direct admin access
+- **Project lifecycle management** from creation to completion
+- **Seamless issuer onboarding** with admin support
+
+**2. Project Editing & Management**
+- **View and edit projects** after admin creation
+- **Real-time project updates** with instant synchronization
+- **Project status management** with comprehensive tracking
+- **Investor addition to specific projects** for targeted private issuance
+
+### **Tally Form Integration**
+
+**1. Streamlined Project Submission**
+- **Integrated Tally forms** for project submission workflow
+- **Simplified project creation process** with guided forms
+- **Automated data collection** from project submissions
+- **Enhanced user experience** with intuitive form interfaces
+
+### **Quest System Enhancements**
+
+**1. Challenge Management**
+- **Edit challenges and flipcards** with comprehensive editing tools
+- **Dynamic quest configuration** for varied user experiences
+- **XP system integration** for retail investors
+- **Multi-quest participation** for enhanced engagement
+
+**2. Retail Investor Quest Experience**
+- **Quest game participation** specifically for retail investors
+- **Multiple quest challenges** with progressive difficulty
+- **XP accumulation system** with reward mechanics
+- **Gamified investment education** through interactive quests
+
+## **Improvements**
+
+### **User Experience Enhancements**
+
+**1. Content & UI Updates**
+- **Updated home page text** for better clarity and engagement
+- **Enhanced footer content** with improved information architecture
+- **Refined raise app interface** with streamlined user flows
+- **Single-line text formatting** for better readability
+
+**2. Authentication Experience**
+- **Fixed login issues** for smoother user onboarding
+- **Improved web3auth integration** with updated client configuration
+- **Enhanced authentication flow** with better error handling
+
+### **XP System Improvements**
+
+**1. Leaderboard Accuracy**
+- **Fixed XP calculation discrepancies** between leaderboard and quest pages
+- **Synchronized XP tracking** across all platform features
+- **Consistent XP display** with accurate point calculations
+- **Admin portal XP management** with proper validation
+
+## **Bug Fixes**
+
+### **Authentication & Security**
+
+**1. Login System Fixes**
+- **Fixed client ID for web3auth** (shahlav)
+- **Resolved login authentication issues** (shahlav)
+- **Fixed auth header issues for admin portal** (shahlav)
+
+### **Build & Development**
+
+**1. Build Optimization**
+- **Removed unused variables** to fix build issues (neeraj-gs)
+- **Debug transaction errors** for better error handling (neeraj-gs)
+- **Fixed project edit functionality** (shahlav)
+
+### **System Stability**
+
+**1. Core Functionality**
+- **Fixed XP adding from admin portal** mismatch between leaderboard and quest page (VladShrm)
+- **Resolved project editing bugs** for seamless project management
+- **Fixed authentication header issues** for admin portal access
+
+## **Security Updates**
+
+### **Authentication Hardening**
+
+**1. Web3Auth Security**
+- **Updated web3auth client ID** for enhanced security
+- **Fixed authentication header validation** for admin portal
+- **Improved login security** with better error handling
+
+### **Access Control**
+
+**1. Role-Based Security**
+- **Enhanced admin portal authentication** with proper header validation
+- **Improved project access control** for private issuance
+- **Secure investor-project relationship** management
+
+## **Technical Infrastructure**
+
+### **Integration Architecture**
+
+**1. Third-Party Integrations**
+- **Tally form integration** for streamlined project submission
+- **Enhanced web3auth configuration** for better authentication
+- **Improved admin portal integration** with proper authentication
+
+### **Database & Backend**
+
+**1. Data Management**
+- **Private project data handling** with secure access control
+- **Investor classification tracking** with proper role management
+- **XP system data consistency** across all platform features
+
+## **Platform-Specific Features**
+
+### **Raise App Enhancements**
+
+**1. Core Functionality**
+- **Refined raise app interface** with improved user experience
+- **Enhanced project creation workflow** with Tally integration
+- **Streamlined issuer onboarding** with admin support
+
+### **Admin Portal Improvements**
+
+**1. Management Tools**
+- **Project creation on behalf of issuers** with comprehensive management
+- **Investor management** for private issuance projects
+- **Enhanced authentication** with proper header validation
+
+This release marks a significant step forward in **private issuance capabilities**, **project management sophistication**, and **user experience differentiation** based on investor types, laying the groundwork for comprehensive tokenized asset management.
+
+---
+
+**Note**: This release focuses heavily on **private issuance functionality** and **project management capabilities**, representing the first major step toward fully functional tokenized asset offerings with proper investor classification and regulatory compliance considerations. 

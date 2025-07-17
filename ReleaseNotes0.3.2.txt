@@ -1,0 +1,245 @@
+# **Release Notes - Version 0.3.2**
+
+## **Summary**
+
+### **Key Statistics**
+
+**Commit Categories:**
+- **Security Hardening**: ~25 commits
+- **Route Refactoring**: ~15 commits
+- **CI/CD Infrastructure**: ~12 commits
+- **Dockerfile Updates**: ~8 commits
+- **KYC System Fixes**: ~6 commits
+- **Wallet Management**: ~5 commits
+- **Bug Fixes**: ~10 commits
+- **Deployment**: ~8 commits
+
+### **Major Feature Areas:**
+
+1. **Security Hardening** - Comprehensive route security refactoring and vulnerability fixes
+2. **CI/CD Infrastructure** - Enhanced deployment pipeline with automated testing
+3. **KYC System Improvements** - Bug fixes and admin functionality enhancements
+4. **Wallet Whitelist Management** - Refined wallet whitelist notification and validation
+5. **Route Architecture** - Complete route refactoring for enhanced security
+
+This release represents a **security-focused milestone** with emphasis on **infrastructure hardening**, **deployment automation**, and **critical vulnerability fixes** across the entire platform.
+
+## **New Features**
+
+### **Enhanced Security Architecture**
+
+**1. Comprehensive Route Security**
+- **Complete route refactoring** with enhanced security measures
+- **Security-first route architecture** with proper validation and sanitization
+- **Enhanced authentication middleware** for all protected endpoints
+- **Improved authorization checks** with role-based access control
+
+**2. Vulnerability Management**
+- **Critical security issue fixes** for web3AuthRegistration and request body handling
+- **Enhanced input validation** with proper sanitization
+- **Improved error handling** with secure error responses
+- **Security audit implementation** with comprehensive vulnerability assessment
+
+### **CI/CD Infrastructure Enhancement**
+
+**1. Automated Deployment Pipeline**
+- **Enhanced CI/CD pipeline** with automated testing and deployment
+- **Staging environment automation** with comprehensive testing
+- **Production deployment pipeline** with proper rollback capabilities
+- **Automated security scanning** integrated into deployment process
+
+**2. Container Infrastructure**
+- **Updated Dockerfile** with security best practices
+- **Enhanced container security** with proper image configuration
+- **Improved build optimization** for faster deployment cycles
+- **Container vulnerability scanning** with automated security checks
+
+### **KYC System Improvements**
+
+**1. KYC Functionality Enhancement**
+- **KYC system bug fixes** with improved validation
+- **Admin KYC management** with enhanced update capabilities
+- **KYC workflow optimization** with streamlined processes
+- **Enhanced KYC error handling** with better user feedback
+
+**2. User Management Enhancement**
+- **Admin user detail updates** with comprehensive management
+- **Enhanced user validation** with improved security checks
+- **Better user data handling** with proper sanitization
+- **Improved user authentication** with enhanced security measures
+
+## **Improvements**
+
+### **Security Enhancements**
+
+**1. Route Security Hardening**
+- **Comprehensive route security refactoring** across all endpoints
+- **Enhanced input validation** with proper sanitization
+- **Improved authentication middleware** with better security checks
+- **Enhanced authorization validation** with role-based permissions
+
+**2. Vulnerability Fixes**
+- **Critical security vulnerability fixes** with comprehensive patching
+- **Enhanced request body validation** with proper sanitization
+- **Improved error handling** with secure error responses
+- **Security audit implementation** with continuous monitoring
+
+### **Infrastructure Improvements**
+
+**1. Deployment Pipeline Enhancement**
+- **Automated CI/CD pipeline** with comprehensive testing
+- **Enhanced deployment process** with proper rollback capabilities
+- **Improved staging environment** with production-like testing
+- **Automated security scanning** integrated into deployment
+
+**2. Container Optimization**
+- **Updated Dockerfile** with security best practices
+- **Enhanced container configuration** with optimized settings
+- **Improved build process** with faster deployment cycles
+- **Container security hardening** with vulnerability scanning
+
+### **Wallet Management Improvements**
+
+**1. Whitelist Management**
+- **Refined wallet whitelist notification** with improved messaging
+- **Enhanced wallet validation** with better security checks
+- **Improved whitelist management** with streamlined processes
+- **Better user feedback** for whitelist operations
+
+**2. User ID Validation**
+- **Removed userId validation** for whitelist wallet operations
+- **Enhanced wallet authentication** with improved security
+- **Streamlined wallet management** with better user experience
+- **Improved wallet verification** with enhanced validation
+
+## **Bug Fixes**
+
+### **KYC System Fixes**
+
+**1. KYC Functionality**
+- **Fixed KYC validation issues** with proper error handling
+- **Resolved KYC update problems** for admin functionality
+- **Corrected KYC workflow** with improved user experience
+- **Fixed KYC authentication** with enhanced security checks
+
+### **Security Fixes**
+
+**1. Critical Security Issues**
+- **Fixed critical security vulnerabilities** in web3AuthRegistration
+- **Resolved request body security issues** with proper validation
+- **Corrected authentication flaws** with enhanced security measures
+- **Fixed authorization problems** with proper permission checks
+
+### **Infrastructure Fixes**
+
+**1. Deployment Issues**
+- **Fixed CI/CD pipeline issues** with proper configuration
+- **Resolved Dockerfile problems** with optimized settings
+- **Corrected deployment process** with enhanced automation
+- **Fixed container security** with vulnerability patches
+
+## **Security Updates**
+
+### **Route Security Enhancement**
+
+**1. Comprehensive Security Refactoring**
+- **Complete route security overhaul** with enhanced protection
+- **Improved input validation** with comprehensive sanitization
+- **Enhanced authentication checks** with proper middleware
+- **Better authorization validation** with role-based access
+
+### **Vulnerability Management**
+
+**1. Critical Vulnerability Fixes**
+- **Fixed critical security issues** in user registration and authentication
+- **Enhanced request body validation** with proper sanitization
+- **Improved error handling** with secure error responses
+- **Security audit implementation** with continuous monitoring
+
+### **Authentication & Authorization**
+
+**1. Enhanced Security Measures**
+- **Improved authentication middleware** with better security checks
+- **Enhanced authorization validation** with proper permission management
+- **Better session management** with secure session handling
+- **Improved user validation** with comprehensive security checks
+
+## **Technical Infrastructure**
+
+### **CI/CD Pipeline Enhancement**
+
+**1. Automated Deployment**
+- **Enhanced CI/CD pipeline** with automated testing and deployment
+- **Improved staging environment** with production-like testing
+- **Automated security scanning** integrated into deployment process
+- **Better rollback capabilities** with proper deployment management
+
+### **Container Infrastructure**
+
+**1. Docker Optimization**
+- **Updated Dockerfile** with security best practices
+- **Enhanced container security** with proper configuration
+- **Improved build optimization** with faster deployment cycles
+- **Container vulnerability scanning** with automated security checks
+
+### **Security Architecture**
+
+**1. Comprehensive Security Framework**
+- **Enhanced security middleware** with proper validation
+- **Improved authentication framework** with better security checks
+- **Better authorization system** with role-based access control
+- **Security monitoring** with continuous vulnerability assessment
+
+## **Platform-Specific Features**
+
+### **Web3 Authentication Enhancement**
+
+**1. Web3Auth Security**
+- **Fixed critical web3AuthRegistration security issues** with proper validation
+- **Enhanced web3 authentication** with improved security measures
+- **Better web3 user management** with comprehensive validation
+- **Improved web3 error handling** with secure responses
+
+### **Wallet Management System**
+
+**1. Wallet Security Enhancement**
+- **Enhanced wallet whitelist management** with improved security
+- **Better wallet validation** with comprehensive checks
+- **Improved wallet notification system** with refined messaging
+- **Enhanced wallet authentication** with proper security measures
+
+## **Development & Deployment**
+
+### **Infrastructure Automation**
+
+**1. CI/CD Implementation**
+- **Automated testing pipeline** with comprehensive test coverage
+- **Enhanced deployment automation** with proper rollback capabilities
+- **Improved staging environment** with production-like testing
+- **Automated security scanning** integrated into deployment
+
+### **Security Integration**
+
+**1. Security-First Development**
+- **Security audit integration** with continuous monitoring
+- **Vulnerability scanning** automated in deployment pipeline
+- **Security testing** integrated into CI/CD process
+- **Comprehensive security validation** throughout deployment
+
+## **Known Issues**
+
+### **Resolved Issues**
+
+**1. Security Vulnerabilities**
+- **All critical security issues** identified and patched
+- **Route security vulnerabilities** completely resolved
+- **Authentication flaws** fixed with enhanced security measures
+- **Authorization problems** corrected with proper validation
+
+---
+
+**Note**: This release was primarily focused on **security hardening** and **infrastructure improvements**. The comprehensive route security refactoring and critical vulnerability fixes represent a significant step forward in platform security posture.
+
+**Key Highlights**: The **complete route security refactoring** and **critical vulnerability fixes** ensure robust platform security, while **CI/CD pipeline enhancements** and **container optimizations** provide a solid foundation for reliable deployments. The **KYC system improvements** and **wallet management enhancements** contribute to better user experience with maintained security standards.
+
+**Security Impact**: This release addresses multiple critical security vulnerabilities and implements comprehensive security measures across all platform components, making it a crucial update for platform security and reliability. 

@@ -1,0 +1,235 @@
+# **Release Notes - Version 0.3.5**
+
+## **Summary**
+
+### **Key Statistics**
+
+**Commit Categories:**
+- **Brand & UI Updates**: ~18 commits
+- **Analytics Integration**: ~8 commits
+- **Email System**: ~10 commits
+- **Form Integration**: ~6 commits
+- **Content Management**: ~5 commits
+- **UI/UX Refinements**: ~15 commits
+- **Bug Fixes**: ~8 commits
+- **Code Cleanup**: ~7 commits
+
+### **Major Feature Areas:**
+
+1. **Brand Identity Updates** - Logo updates and comprehensive UI/UX refinements
+2. **Analytics Expansion** - Amplitude analytics integration for invest app
+3. **Email System Enhancement** - Updated email templates and communication improvements
+4. **Form Integration Upgrade** - Tally form integration replacing DD Form system
+5. **Content Streamlining** - Document section removal for simplified project management
+
+This release represents a **brand and user experience focused update** with emphasis on **visual consistency**, **analytics expansion**, and **streamlined user workflows** through improved form integration and content management.
+
+## **New Features**
+
+### **Analytics Integration Expansion**
+
+**1. Invest App Analytics**
+- **Amplitude analytics integration** for comprehensive invest app tracking
+- **Investment behavior analytics** with detailed user journey mapping
+- **Custom event tracking** for investment-specific actions
+- **Real-time investment metrics** with performance insights
+
+**2. Enhanced Analytics Coverage**
+- **Cross-platform analytics** spanning both raise and invest applications
+- **Unified user tracking** across different platform sections
+- **Advanced segmentation** for investor behavior analysis
+- **Custom analytics dashboard** for investment insights
+
+### **Form Integration Upgrade**
+
+**1. Tally Form Integration**
+- **Tally form integration into CP** replacing traditional DD Form system
+- **Streamlined form submission** with enhanced user experience
+- **Automated form processing** with better data validation
+- **Improved form analytics** with submission tracking
+
+**2. Form Management Enhancement**
+- **Enhanced form validation** with real-time feedback
+- **Improved form styling** with consistent design language
+- **Better form accessibility** with enhanced usability
+- **Streamlined form workflows** for user efficiency
+
+### **Brand Identity System**
+
+**1. Logo Updates**
+- **Updated brand logos** across all platform sections
+- **Consistent brand identity** with unified visual language
+- **Enhanced logo variations** for different use cases
+- **Brand consistency enforcement** throughout the platform
+
+**2. Visual Identity Enhancement**
+- **Refined brand colors** and typography system
+- **Updated brand guidelines** implementation
+- **Enhanced visual consistency** across all touchpoints
+- **Professional brand presentation** with polished aesthetics
+
+## **Improvements**
+
+### **User Interface Refinements**
+
+**1. UI/UX Enhancements**
+- **Comprehensive UI refinements** with improved user experience
+- **Enhanced component styling** with modern design principles
+- **Improved navigation flows** with intuitive user journeys
+- **Streamlined interface design** with reduced complexity
+
+**2. User Experience Optimization**
+- **Refined user interactions** with smooth transitions
+- **Enhanced accessibility features** for better inclusivity
+- **Improved responsive design** across all device types
+- **Better user feedback mechanisms** with clear status indicators
+
+### **Email Communication Enhancement**
+
+**1. Email Template Updates**
+- **Updated email templates** with modern design and branding
+- **Enhanced email styling** with consistent visual identity
+- **Improved email content** with clearer messaging
+- **Better email accessibility** with proper formatting
+
+**2. Communication Improvements**
+- **Enhanced email deliverability** with optimized templates
+- **Improved email tracking** with better analytics
+- **Better email personalization** with dynamic content
+- **Streamlined email workflows** for automated communications
+
+### **Content Management Streamlining**
+
+**1. Document Section Removal**
+- **Removed document section** for projects to simplify workflow
+- **Streamlined project management** with reduced complexity
+- **Enhanced project focus** with essential features only
+- **Improved project navigation** with cleaner interface
+
+**2. Content Optimization**
+- **Simplified content structure** for better user comprehension
+- **Enhanced content accessibility** with improved organization
+- **Better content maintenance** with streamlined management
+- **Improved content performance** with optimized loading
+
+## **Bug Fixes**
+
+### **Interface & Design Fixes**
+
+**1. UI Component Fixes**
+- **Fixed logo display issues** across different screen sizes
+- **Resolved styling inconsistencies** in updated components
+- **Corrected alignment problems** with refined UI elements
+- **Fixed responsive design issues** on mobile devices
+
+### **Form Integration Fixes**
+
+**1. Tally Form Fixes**
+- **Fixed form submission errors** with proper validation
+- **Resolved form styling issues** with consistent design
+- **Corrected form data handling** with improved processing
+- **Fixed form accessibility** with better keyboard navigation
+
+### **Email System Fixes**
+
+**1. Email Template Fixes**
+- **Fixed email rendering issues** across different clients
+- **Resolved email formatting problems** with proper styling
+- **Corrected email delivery issues** with improved templates
+- **Fixed email tracking** with accurate analytics
+
+## **Security Updates**
+
+### **Analytics Security**
+
+**1. Data Protection Enhancement**
+- **Secure analytics implementation** for invest app with proper data handling
+- **Privacy-compliant tracking** with user consent management
+- **Protected user data** with appropriate anonymization
+- **Secure data transmission** to analytics platforms
+
+### **Form Security**
+
+**1. Form Protection**
+- **Enhanced form security** with proper validation and sanitization
+- **Secure form submission** with protected data handling
+- **Improved form authentication** with user verification
+- **Protected form data** with proper encryption
+
+## **Technical Infrastructure**
+
+### **Analytics Architecture**
+
+**1. Amplitude Integration**
+- **Comprehensive analytics setup** for invest app with custom events
+- **Analytics data architecture** for efficient processing
+- **Real-time analytics** with immediate insights
+- **Custom analytics configuration** for investment tracking
+
+### **Form Integration Architecture**
+
+**1. Tally Form System**
+- **Seamless Tally integration** with proper API handling
+- **Form data processing** with efficient workflows
+- **Form validation system** with real-time feedback
+- **Form analytics integration** with submission tracking
+
+## **Platform-Specific Features**
+
+### **Invest App Enhancements**
+
+**1. Analytics Integration**
+- **Comprehensive invest app analytics** with Amplitude integration
+- **Investment behavior tracking** with detailed user insights
+- **Performance monitoring** for investment workflows
+- **Custom event tracking** for investment-specific actions
+
+### **Brand Consistency**
+
+**1. Visual Identity Implementation**
+- **Updated logos** across all platform sections
+- **Consistent brand identity** with unified visual language
+- **Enhanced brand presentation** with professional aesthetics
+- **Brand guideline enforcement** throughout the platform
+
+## **User Experience Improvements**
+
+### **Workflow Simplification**
+
+**1. Streamlined Processes**
+- **Simplified project management** with document section removal
+- **Enhanced form workflows** with Tally integration
+- **Improved user journeys** with reduced complexity
+- **Better user guidance** with clearer navigation
+
+### **Communication Enhancement**
+
+**1. Email Experience**
+- **Improved email templates** with modern design and branding
+- **Enhanced email content** with clearer messaging
+- **Better email accessibility** with proper formatting
+- **Streamlined email workflows** for user convenience
+
+## **Development & Deployment**
+
+### **Integration Management**
+
+**1. Third-Party Integrations**
+- **Tally form integration** with proper API management
+- **Amplitude analytics** with comprehensive tracking setup
+- **Form processing optimization** with efficient workflows
+- **Analytics dashboard integration** with user-friendly interfaces
+
+### **Content Management**
+
+**1. Content Optimization**
+- **Streamlined content structure** with document section removal
+- **Enhanced content management** with simplified workflows
+- **Improved content accessibility** with better organization
+- **Better content performance** with optimized loading
+
+---
+
+**Note**: This release focused on **brand consistency**, **user experience refinement**, and **workflow simplification**. The **Tally form integration** and **document section removal** represent significant improvements in user workflow efficiency, while **updated logos** and **email templates** enhance professional brand presentation.
+
+**Key Highlights**: The expansion of **Amplitude analytics to the invest app** provides comprehensive user behavior insights across the entire platform, while **UI/UX refinements** and **email template updates** create a more polished and professional user experience. The **form integration upgrade** streamlines user interactions and reduces complexity in project management workflows. 

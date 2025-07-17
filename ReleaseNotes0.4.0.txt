@@ -1,0 +1,210 @@
+# **Release Notes - Version 0.4.0**
+
+## **Summary**
+
+### **Key Statistics**
+
+**Commit Categories:**
+
+- **Quest/Challenge Related**: ~25 commits
+- **Security & Authentication**: ~35 commits
+- **Rate Limiting**: ~15 commits
+- **Email & Notifications**: ~10 commits
+- **WebSocket**: ~5 commits
+- **Bug Fixes**: ~50 commits
+- **Infrastructure**: ~20 commits
+- **GrowthBook Integration**: ~8 commits
+
+### **Major Feature Areas:**
+
+1. **GrowthBook Integration** - Feature flagging for quest system
+2. **Security Hardening** - JWT cookies, NoSQL injection protection
+3. **Rate Limiting** - Comprehensive API protection
+4. **Quest System** - Bug fixes and XP system improvements
+5. **Email Protection** - Anti-bombing measures
+6. **WebSocket Security** - User-specific session management
+
+This release represents a significant focus on **security improvements**, **quest system stability**, and **GrowthBook integration** for controlled feature rollouts.
+
+## **New Features**
+
+### Quest System Release Summary
+
+### **Core Quest & Challenge Features**
+
+**1. Quest Management System**
+
+- **Complete quest lifecycle management** with challenge creation, tracking, and completion
+- **Dynamic challenge states** (locked/unlocked, expired/active)
+- **Challenge static ID generation** (CH1, CH2, etc.) for consistent identification
+- **Multi-platform challenge support** with platform-specific validation
+
+**2. Flip Card Game Mechanics**
+
+- **Interactive flip card system** with reveal and claim functionality
+- **Bonus card system** with special unlock conditions
+- **Red card mechanics** that destroy associated bonus cards when claimed
+- **Card state tracking** (locked, revealed, claimed, destroyed)
+- **Associated flip card relationships** for complex card interactions
+
+**3. Social Media Integration**
+
+- **Twitter integration** with follow and repost challenges
+- **Discord integration** with server joining verification
+- **Telegram integration** with channel membership verification
+- **Social account verification** to prevent duplicate claims
+- **OAuth2 authentication** for all social platforms
+
+### **Leaderboard & Ranking System**
+
+**1. Real-time Leaderboard**
+
+- **Dynamic ranking algorithm** based on total claimed flip card points
+- **Tie-breaking system** using completion timestamps and user IDs
+- **Pagination support** for large leaderboard datasets
+- **User rank calculation** with total participant tracking
+
+**2. User Progress Tracking**
+
+- **Individual user metrics** (rank, points, completion percentage)
+- **Quest completion statistics** (completed vs total quests)
+- **Active quest tracking** with expiration handling
+- **Progress visualization** with completion percentages
+
+### **XP & Reward System**
+
+**1. Experience Points Management**
+
+- **Quest XP rewards** for completing challenges
+- **Flip card point system** with variable point values
+- **Bonus card XP** with enhanced reward mechanics
+- **XP tracking and aggregation** across all activities
+
+**2. Reward Distribution**
+
+- **Automatic XP distribution** upon challenge completion
+- **Bonus card unlocking** after 10+ completed challenges
+- **Red card penalty system** that affects bonus rewards
+- **Social verification rewards** for platform-specific actions
+
+### **Technical Infrastructure**
+
+**1. Database Architecture**
+
+- **User challenge tracking model** with comprehensive state management
+- **Flip card tracking system** with detailed card state persistence
+- **Social verification tracking** to prevent duplicate claims
+- **Leaderboard aggregation** with optimized MongoDB pipelines
+
+**2. API Endpoints**
+
+- **Quest management APIs** (create, update, delete, list)
+- **Leaderboard APIs** (user rankings, metrics, pagination)
+- **Flip card APIs** (reveal, claim, bonus card management
+- **Social integration APIs** (Twitter, Discord, Telegram)
+
+**3. Security & Validation**
+
+- **Rate limiting** for all quest-related endpoints
+- **Role-based access control** for investor and admin users
+- **Social account verification** to prevent abuse
+- **Feature flag integration** for controlled rollouts
+
+### **User Experience Features**
+
+**1. Quest Discovery**
+
+- **Quest listing** with detailed challenge information
+- **Challenge status indicators** (locked, active, expired)
+- **Platform-specific challenge types** (social media, general)
+- **Challenge completion tracking** with visual progress
+
+**2. Interactive Elements**
+
+- **Flip card reveal mechanics** with suspense and reward
+- **Bonus card unlocking** with achievement-based progression
+- **Social media integration** with seamless platform connections
+- **Real-time leaderboard updates** with live ranking changes
+
+### **Administrative Features**
+
+**1. Quest Management**
+
+- **Challenge creation and editing** with full CRUD operations
+- **Challenge expiration management** with automatic status updates
+- **Flip card mapping** to challenges with point assignment
+- **Social verification tracking** for audit purposes
+
+**2. Analytics & Monitoring**
+
+- **User participation tracking** with detailed metrics
+- **Challenge completion analytics** with success rates
+- **Leaderboard performance monitoring** with ranking stability
+- **Social platform integration monitoring** with verification logs
+
+The quest features provide a complete gamification experience with social media integration, competitive leaderboards, and engaging reward mechanics that encourage user participation and platform engagement.
+
+## **Improvements**
+
+**Canary Release & Ambassador Features**
+
+**1. GrowthBook Integration for Canary Releases**
+
+- **Feature flag targeting** for specific user groups (ambassadors)
+- **Gradual rollout capabilities** with percentage-based targeting
+- **A/B testing infrastructure** for feature validation
+- **Real-time feature flag updates** without deployment
+- **User-specific feature experiences** based on targeting rules
+
+**Email & Notification System**
+
+**1. Email Bombing Protection**
+
+- **Add email notifications limit per minute** (60bb6c3)
+- **Fixed email value** (0db923b)
+
+**🔌 WebSocket & Real-time Features**
+
+**1. WebSocket Security**
+
+- **Make websocket session linked to only one particular user** (b8f887f)
+- **Fix/0.4.0_websocket-auth-validation** (bfd7d93)
+
+### **🐞 Bug Fixes**
+
+**1. General Bug Fixes**
+
+- **Fixed project image signed URL issue** (cdc610f)
+- **Fixed pagination issue for leaderboard** (90a34c1)
+- **Fixed admin web3 auth endpoint** (941e6be)
+- **Change order of challenge routes and endpoint to fix dynamic routes problem** (5a24d85)
+
+**2. Package & Configuration**
+
+- **Removed package from root and installed at project level** (b1ff453)
+- **Remove redundant NODE_ENV and separate prod script from package.json** (5fa8d62)
+- **Fix missing JWT import in server.js** (0f2c1cb)
+
+## **Security Updates**
+
+**1. JWT & Cookie Authentication**
+
+- **Feature: JWT via cookies implementation** (2cf393f)
+- **Fixed auth cookie issue** (49a7d48)
+- **Change localStorage web3AuthToken to cookies authToken inside challengeList** (915b20e)
+- **Fix authentication header for admin portal** (913eeae)
+- **Change admin login and logout endpoint by sending JWT via cookies** (936ffaa)
+
+**2. Security Vulnerabilities & Fixes**
+
+- **Security: add express-mongo-sanitize to prevent NoSQL injection attacks** (9e5ace4)
+- **Fix/security-vulnerability-0.3.6-socket** (98828a9)
+- **Created JWT auth middleware to authenticate all socket requests** (c08587c)
+
+**3. Rate Limiting & API Protection**
+
+- **Added rate limiter for discord, challenge, telegram routes** (9859c21)
+
+### **🔍 Known Issues**
+
+This release represents a significant focus on **security improvements**, **quest system stability**, and **GrowthBook integration** for controlled feature rollouts. 
